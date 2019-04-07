@@ -15,7 +15,7 @@
 * タスクダッシュボード表示
 */
 Route::get('/', function () {
-    //
+    return view('tasks');
 });
 
 /**
