@@ -55,14 +55,6 @@
                     <td class="table-text">
                         <div>{{ $task->name }}</div>
                     </td>
-
-                    <td>
-                <tr>
-                    <!-- タスク名 -->
-                    <td class="table-text">
-                        <div>{{ $task->name }}</div>
-                    </td>
-
                     <!-- 削除ボタン -->
                     <td>
                         <form action="{{ url('task/'.$task->id) }}" method="POST">
